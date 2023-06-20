@@ -1,0 +1,142 @@
+.Card-wraper {
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: x-large;
+}
+
+.Waraper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  font-family: cursive;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.add-button {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.student-login {
+  width: 260px;
+  height: 50px;
+  margin-bottom: 30px !important;
+}
+
+.teacher-login {
+  width: 260px;
+  height: 50px;
+}
+
+.nav-wraper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.manage-content {
+  margin-top: 60px;
+}
+
+.column {
+  margin-bottom: 16px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:auto;
+}
+
+.card-about {
+  border: 1px solid;
+  width: 300px;
+  height: 500ps;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container-about {
+  padding: 0 16px;
+}
+
+.container-about::after,
+.row-about::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-about {
+  color: grey;
+}
+
+.button-about {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.row-about{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.button-about:hover {
+  background-color: #555;
+}
+
+.about-wraper {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
